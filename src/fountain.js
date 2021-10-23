@@ -1,19 +1,9 @@
 import { html } from './formats/html'
 import { tokenize } from './tokenize'
 
-var parse = function (script, toks, callback) {
-  if (callback === undefined && typeof toks === 'function') {
-    callback = toks
-    toks = undefined
-  }
-
+const parse = function (script, callback) {
   const tokens = tokenize(script)
-  const result = html(tokens)
-
-  const output = {
-    ...result,
-    tokens: toks ? tokens.reverse() : undefined,
-  }
+  const output = html(tokens)
 
   if (typeof callback === 'function') {
     return callback(output)
@@ -26,7 +16,7 @@ export default {
   tokenize: function (script) {
     return tokenize(script)
   },
-  parse: function (script, tokens, callback) {
-    return parse(script, tokens, callback)
+  parse: function (script, callback) {
+    return parse(script, callback)
   },
 }
