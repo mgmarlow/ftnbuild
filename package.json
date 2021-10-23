@@ -1,14 +1,21 @@
 {
   "name": "ftn",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "git@github.com:mgmarlow/Fountain.js.git",
   "author": "Graham Marlow <mgmarlow@hey.com>",
   "license": "MIT",
+  "source": "fountain.js",
+  "main": "dist/main.js",
   "scripts": {
-    "test": "jest"
+    "test": "yarn jest",
+    "build": "parcel build"
   },
   "devDependencies": {
-    "jest": "^27.3.1"
-  }
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
+    "parcel": "^2.0.0"
+  },
+  "dependencies": {}
 }

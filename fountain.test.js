@@ -1,5 +1,5 @@
-const fs = require('fs')
-const fountain = require('./fountain')
+import fs from 'fs'
+import fountain from './fountain'
 
 describe('fountain', () => {
   it('should run against fixture', () => {
