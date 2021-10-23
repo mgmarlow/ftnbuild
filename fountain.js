@@ -392,6 +392,9 @@ var parse = function (script, toks, callback) {
 }
 
 export default {
+  tokenize: function (script) {
+    return tokenize(script)
+  },
   parse: function (script, tokens, callback) {
     return parse(script, tokens, callback)
   },
