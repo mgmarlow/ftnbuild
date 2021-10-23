@@ -1,13 +1,11 @@
 import { tokenize } from './tokenize'
 import { html } from './formats/html'
 
-export const parse = (script, callback) => {
+const defaultOptions = {
+  format: 'html',
+}
+
+export const parse = (script, opt = defaultOptions) => {
   const tokens = tokenize(script)
-  const output = html(tokens)
-
-  if (typeof callback === 'function') {
-    return callback(output)
-  }
-
-  return output
+  return html(tokens)
 }
