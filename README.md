@@ -25,8 +25,8 @@ import { parse } from 'ftnbuild'
 const contents = fs.readFileSync('screenplay.fountain', { encoding: 'utf-8' })
 const output = parse(contents)
 // output.title -> 'Big Fish'
-// output.html.title_page -> '<h1>Big Fish</h1><p class="author">...'
-// output.html.script -> '<h2><span class="bold">FADE IN:</span></h2>...'
+// output.content.title_page -> '<h1>Big Fish</h1><p class="author">...'
+// output.content.script -> '<h2><span class="bold">FADE IN:</span></h2>...'
 ```
 
 Parse as JSON (good for programmatic integrations):

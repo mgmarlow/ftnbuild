@@ -121,6 +121,6 @@ export const html = (tokens) => {
 
   return {
     title,
-    html: { title_page: titlePage.join(''), script: tags.join('') },
+    content: { title_page: titlePage.join(''), script: tags.join('') },
   }
 }
