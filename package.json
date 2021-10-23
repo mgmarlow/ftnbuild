@@ -1,6 +1,6 @@
 {
   "name": "ftnbuild",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "repository": "git@github.com:mgmarlow/Fountain.js.git",
   "author": "Graham Marlow <mgmarlow@hey.com>",
   "license": "MIT",
