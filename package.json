@@ -4,7 +4,7 @@
   "repository": "git@github.com:mgmarlow/Fountain.js.git",
   "author": "Graham Marlow <mgmarlow@hey.com>",
   "license": "MIT",
-  "source": "fountain.js",
+  "source": "src/fountain.js",
   "main": "dist/main.js",
   "scripts": {
     "test": "yarn jest",
