@@ -1,24 +1,28 @@
-fountain-js
-===========
+# ftnbuild
 
-fountain-js is a JavaScript based parser for the screenplay format [Fountain](http://fountain.io/).
+ftnbuild is a JS processor for [Fountain](http://fountain.io/). Forked from the lovely [Fountain.js](https://github.com/mattdaly/Fountain.js) implementation by Matt Daly.
 
-You can [try fountain-js out](http://mattdaly.github.com/Fountain.js/). The file system currently uses the HTML 5 File API, which means not all browsers support it, you'll be told if yours doesn't - I'm working on compatiblity. CSS styling isn't complete, so some elements aren't placed correctly and the text spacing might not be quite right, and, as you'll see, individual pages aren't currently supported either.
+Roadmap:
 
-# Syntax Support
+- [ ] JSON output
+- [ ] Update docs
+- [ ] Better test coverage
+
+# Original Fountain.js docs:
+
+## Syntax Support
 
 As of version 0.1.8 the full Fountain syntax is supported.
 
-Currently fountain-js supports a limited range of key-value pairs for title pages - 
+Currently fountain-js supports a limited range of key-value pairs for title pages -
 
-* Title, Credit, Author/s, Source, Notes, Draft date, Date, Contact, Copyright
+- Title, Credit, Author/s, Source, Notes, Draft date, Date, Contact, Copyright
 
 Work is being done to make title page parsing friendlier, allowing custom key-value pairs, but as of version 0.1.0 only the above are supported.
 
-Instructions
-============
+## Instructions
 
-fountain-js accepts a string value to it's parse function, therefore opening or retrieving files is down to you - open the file, retrieve it's string contents and pass it to fountain-js. 
+fountain-js accepts a string value to it's parse function, therefore opening or retrieving files is down to you - open the file, retrieve it's string contents and pass it to fountain-js.
 
 The parser doesn't simply change scripts lines in to html, it first splits the script down line by line and generates an array of tokens representing each script element. This tokenized array provides the opportunity to iterate over a script in it's raw state and do some analysis (e.g. we could search for every character element with the name STEEL, we could do this against the HTML using jQuery but it'd be a slower process). By default, fountain-js simply returns the generated html, but you can also gain access to those tokens if you ask for them (more on that below).
 
@@ -76,33 +80,33 @@ If you want access to the tokens that fountain-js generates, simply attach a tru
 The tokens for the Brick & Steel sample found on the fountain.io website would look as follows (just a small sample):
 
 ```
-[ 
-  ..., 
-  { type="scene_heading", text="EXT. BRICK'S PATIO - DAY", scene_number="1"}, 
-  { type="action", text="A gorgeous day. The su...emplating -- something."}, 
-  { type="action", text="The SCREEN DOOR slides ...es with two cold beers."},  
-  { type="dialogue_begin"}, 
-  { type="character", text="STEEL"}, 
-  { type="dialogue", text="Beer's ready!"}, 
-  { type="dialogue_end"}, 
-  { type="dialogue_begin"}, 
-  { type="character", text="BRICK"}, 
-  { type="dialogue", text="Are they cold?"}, 
-  { type="dialogue_end"}, 
-  { type="page_break"}, 
-  { type="dialogue_begin"}, 
-  { type="character", text="STEEL"}, 
-  { type="dialogue", text="Does a bear crap in the woods?"}, 
-  { type="dialogue_end"}, 
+[
+  ...,
+  { type="scene_heading", text="EXT. BRICK'S PATIO - DAY", scene_number="1"},
+  { type="action", text="A gorgeous day. The su...emplating -- something."},
+  { type="action", text="The SCREEN DOOR slides ...es with two cold beers."},
+  { type="dialogue_begin"},
+  { type="character", text="STEEL"},
+  { type="dialogue", text="Beer's ready!"},
+  { type="dialogue_end"},
+  { type="dialogue_begin"},
+  { type="character", text="BRICK"},
+  { type="dialogue", text="Are they cold?"},
+  { type="dialogue_end"},
+  { type="page_break"},
+  { type="dialogue_begin"},
+  { type="character", text="STEEL"},
+  { type="dialogue", text="Does a bear crap in the woods?"},
+  { type="dialogue_end"},
   { type="action", text="Steel sits. They laugh at the dumb joke."},
-  { type="dialogue_begin"}, 
-  { type="character", text="STEEL"}, 
-  { type="parenthetical", text="(beer raised)"}, 
-  { type="dialogue", text="To retirement."}, 
-  { type="dialogue_end"}, 
-  { type="dialogue_begin"}, 
-  { type="character", text="BRICK"}, 
-  { type="dialogue", text="To retirement."}, 
+  { type="dialogue_begin"},
+  { type="character", text="STEEL"},
+  { type="parenthetical", text="(beer raised)"},
+  { type="dialogue", text="To retirement."},
+  { type="dialogue_end"},
+  { type="dialogue_begin"},
+  { type="character", text="BRICK"},
+  { type="dialogue", text="To retirement."},
   { type="dialogue_end"}
   ...
 ```
