@@ -1,5 +1,5 @@
 import fs from 'fs'
-import fountain from './fountain'
+import fountain from './index'
 
 describe('fountain', () => {
   describe('#parse', () => {
