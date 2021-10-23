@@ -1,0 +1,14 @@
+{
+  "name": "ftn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mgmarlow/Fountain.js.git",
+  "author": "Graham Marlow <mgmarlow@hey.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
