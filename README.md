@@ -4,7 +4,8 @@ ftnbuild is a JS processor for [Fountain](http://fountain.io/). Forked from the 
 
 Roadmap:
 
-- [ ] JSON output
+- [x] JSON output
+- [ ] Inline field JSON output
 - [ ] Update docs
 - [ ] Better test coverage
 
@@ -25,7 +26,7 @@ import { parse } from 'ftnbuild'
 const contents = fs.readFileSync('screenplay.fountain', { encoding: 'utf-8' })
 const output = parse(contents)
 // output.title -> 'Big Fish'
-// output.content.title_page -> '<h1>Big Fish</h1><p class="author">...'
+// output.content.titlePage -> '<h1>Big Fish</h1><p class="author">...'
 // output.content.script -> '<h2><span class="bold">FADE IN:</span></h2>...'
 ```
 
@@ -37,10 +38,32 @@ import { parse } from 'ftnbuild'
 
 const contents = fs.readFileSync('screenplay.fountain', { encoding: 'utf-8' })
 const output = parse(contents, { format: 'json' })
-// TODO
+// output.title -> "BRICK & STEEL"
+// output.content.titlePage -> { "author": "Stu Maschwitz", ... }
+// output.content.script ->
+// {
+//   "children": [
+//     {
+//       "type": "slugline",
+//       "value": "EXT. BRICK'S PATIO - DAY"
+//     },
+//     {
+//       "type": "dialogue_block",
+//       "character": "STEEL",
+//       "children": [
+//         {
+//           "type": "dialogue",
+//           "value": "Beer's ready!"
+//         }
+//       ]
+//     }
+//   ]
+// }
 ```
 
 Get the raw tokens (write your own parser):
+
+**Note**: The tokens are returned in reverse order. Take a look at `src/formats/` for examples of creating a parser/formatter.
 
 ```js
 import fs from 'fs'

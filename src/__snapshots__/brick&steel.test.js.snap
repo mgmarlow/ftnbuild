@@ -1,0 +1,1013 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fountain #parse #json should match fixture 1`] = `
+Object {
+  "content": Object {
+    "script": Object {
+      "children": Array [
+        Object {
+          "metadata": Object {
+            "scene_number": undefined,
+          },
+          "type": "slugline",
+          "value": "EXT. BRICK'S PATIO - DAY",
+        },
+        Object {
+          "type": "action",
+          "value": "A gorgeous day.  The sun is shining.  But BRICK BRADDOCK, retired police detective, is sitting quietly, contemplating -- something.",
+        },
+        Object {
+          "type": "action",
+          "value": "The SCREEN DOOR slides open and DICK STEEL, his former partner and fellow retiree, emerges with two cold beers.",
+        },
+        Object {
+          "character": "STEEL",
+          "children": Array [
+            Object {
+              "type": "dialogue",
+              "value": "Beer's ready!",
+            },
+          ],
+          "type": "dialogue_block",
+        },
+        Object {
+          "character": "BRICK",
+          "children": Array [
+            Object {
+              "type": "dialogue",
+              "value": "Are they cold?",
+            },
+          ],
+          "type": "dialogue_block",
+        },
+        Object {
+          "character": "STEEL",
+          "children": Array [
+            Object {
+              "type": "dialogue",
+              "value": "Does a bear crap in the woods?",
+            },
+          ],
+          "type": "dialogue_block",
+        },
+        Object {
+          "type": "action",
+          "value": "Steel sits.  They laugh at the dumb joke.",
+        },
+        Object {
+          "character": "STEEL",
+          "children": Array [
+            Object {
+              "type": "parenthetical",
+              "value": "(beer raised)",
+            },
+            Object {
+              "type": "dialogue",
+              "value": "To retirement.",
+            },
+          ],
+          "type": "dialogue_block",
+        },
+        Object {
+          "character": "BRICK",
+          "children": Array [
+            Object {
+              "type": "dialogue",
+              "value": "To retirement.",
+            },
+          ],
+          "type": "dialogue_block",
+        },
+        Object {
+          "type": "action",
+          "value": "They drink long and well from the beers.",
+        },
+        Object {
+          "type": "action",
+          "value": "And then there's a long beat.
+Longer than is funny.
+Long enough to be depressing.",
+        },
+        Object {
+          "type": "action",
+          "value": "The men look at each other.",
+        },
+        Object {
+          "children": Array [],
+          "type": "dual_dialogue_block",
+        },
+        Object {
+          "character": "STEEL",
+          "children": Array [
+            Object {
+              "type": "dialogue",
+              "value": "Screw retirement.",
+            },
+          ],
+          "type": "dialogue_block",
+        },
+        Object {
+          "character": "BRICK",
+          "children": Array [
+            Object {
+              "type": "dialogue",
+              "value": "Screw retirement.",
+            },
+          ],
+          "type": "dialogue_block",
+        },
+        Object {
+          "type": "transition",
+          "value": "SMASH CUT TO:",
+        },
+        Object {
+          "metadata": Object {
+            "scene_number": undefined,
+          },
+          "type": "slugline",
+          "value": "INT. TRAILER HOME - DAY",
+        },
+        Object {
+          "type": "action",
+          "value": "This is the home of THE BOY BAND, AKA DAN and JACK.  They too are drinking beer, and counting the take from their last smash-and-grab.  Money, drugs, and ridiculous props are strewn about the table.",
+        },
+        Object {
+          "character": "JACK",
+          "children": Array [
+            Object {
+              "type": "parenthetical",
+              "value": "(in Vietnamese, subtitled)",
+            },
+            Object {
+              "type": "dialogue",
+              "value": "*Did you know Brick and Steel are retired?*",
+            },
+          ],
+          "type": "dialogue_block",
+        },
+        Object {
+          "character": "DAN",
+          "children": Array [
+            Object {
+              "type": "dialogue",
+              "value": "Then let's retire them.
+_Permanently_.",
+            },
+          ],
+          "type": "dialogue_block",
+        },
+        Object {
+          "type": "action",
+          "value": "Jack begins to argue vociferously in Vietnamese (?), But mercifully we...",
+        },
+        Object {
+          "type": "transition",
+          "value": "CUT TO:",
+        },
+        Object {
+          "metadata": Object {
+            "scene_number": undefined,
+          },
+          "type": "slugline",
+          "value": "EXT. BRICK'S POOL - DAY",
+        },
+        Object {
+          "type": "action",
+          "value": "Steel, in the middle of a heated phone call:",
+        },
+        Object {
+          "character": "STEEL",
+          "children": Array [
+            Object {
+              "type": "dialogue",
+              "value": "They're coming out of the woodwork!
+",
+            },
+            Object {
+              "type": "parenthetical",
+              "value": "(pause)",
+            },
+            Object {
+              "type": "dialogue",
+              "value": "No, everybody we've put away!
+",
+            },
+            Object {
+              "type": "parenthetical",
+              "value": "(pause)",
+            },
+            Object {
+              "type": "dialogue",
+              "value": "Point Blank Sniper?",
+            },
+          ],
+          "type": "dialogue_block",
+        },
+        Object {
+          "metadata": Object {
+            "scene_number": undefined,
+          },
+          "type": "slugline",
+          "value": "SNIPER SCOPE POV",
+        },
+        Object {
+          "type": "action",
+          "value": "From what seems like only INCHES AWAY.  _Steel's face FILLS the *Leupold Mark 4* scope_.",
+        },
+        Object {
+          "character": "STEEL",
+          "children": Array [
+            Object {
+              "type": "dialogue",
+              "value": "The man's a myth!",
+            },
+          ],
+          "type": "dialogue_block",
+        },
+        Object {
+          "type": "action",
+          "value": "Steel turns and looks straight into the cross-hairs.",
+        },
+        Object {
+          "character": "STEEL",
+          "children": Array [
+            Object {
+              "type": "parenthetical",
+              "value": "(oh crap)",
+            },
+            Object {
+              "type": "dialogue",
+              "value": "Hello...",
+            },
+          ],
+          "type": "dialogue_block",
+        },
+        Object {
+          "type": "transition",
+          "value": "CUT TO:",
+        },
+        Object {
+          "metadata": Object {
+            "scene_number": undefined,
+          },
+          "type": "slugline",
+          "value": "OPENING TITLES",
+        },
+        Object {
+          "type": "centered",
+          "value": " BRICK BRADDOCK 
+ & DICK STEEL IN ",
+        },
+        Object {
+          "type": "centered",
+          "value": " BRICK & STEEL 
+ FULL RETIRED ",
+        },
+        Object {
+          "type": "transition",
+          "value": "SMASH CUT TO:",
+        },
+        Object {
+          "metadata": Object {
+            "scene_number": undefined,
+          },
+          "type": "slugline",
+          "value": "EXT. WOODEN SHACK - DAY",
+        },
+        Object {
+          "type": "action",
+          "value": "COGNITO, the criminal mastermind, is SLAMMED against the wall.",
+        },
+        Object {
+          "character": "COGNITO",
+          "children": Array [
+            Object {
+              "type": "dialogue",
+              "value": "Woah woah woah, Brick and Steel!",
+            },
+          ],
+          "type": "dialogue_block",
+        },
+        Object {
+          "type": "action",
+          "value": "Sure enough, it's Brick and Steel, roughing up their favorite usual suspect.",
+        },
+        Object {
+          "character": "COGNITO",
+          "children": Array [
+            Object {
+              "type": "dialogue",
+              "value": "What is it you want with me, DICK?",
+            },
+          ],
+          "type": "dialogue_block",
+        },
+        Object {
+          "type": "action",
+          "value": "Steel SMACKS him.",
+        },
+        Object {
+          "character": "STEEL",
+          "children": Array [
+            Object {
+              "type": "dialogue",
+              "value": "Who's coming after us?",
+            },
+          ],
+          "type": "dialogue_block",
+        },
+        Object {
+          "character": "COGNITO",
+          "children": Array [
+            Object {
+              "type": "dialogue",
+              "value": "Everyone's coming after you mate!  Scorpio, The Boy Band, Sparrow, Point Blank Sniper...",
+            },
+          ],
+          "type": "dialogue_block",
+        },
+        Object {
+          "type": "action",
+          "value": "As he rattles off the long list, Brick and Steel share a look.  This is going to be BAD.",
+        },
+        Object {
+          "type": "transition",
+          "value": "CUT TO:",
+        },
+        Object {
+          "metadata": Object {
+            "scene_number": undefined,
+          },
+          "type": "slugline",
+          "value": "INT. GARAGE - DAY",
+        },
+        Object {
+          "type": "action",
+          "value": "BRICK and STEEL get into Mom's PORSCHE, Steel at the wheel.  They pause for a beat, the gravity of the situation catching up with them.",
+        },
+        Object {
+          "character": "BRICK",
+          "children": Array [
+            Object {
+              "type": "dialogue",
+              "value": "This is everybody we've ever put away.",
+            },
+          ],
+          "type": "dialogue_block",
+        },
+        Object {
+          "character": "STEEL",
+          "children": Array [
+            Object {
+              "type": "parenthetical",
+              "value": "(starting the engine)",
+            },
+            Object {
+              "type": "dialogue",
+              "value": "So much for retirement!",
+            },
+          ],
+          "type": "dialogue_block",
+        },
+        Object {
+          "type": "action",
+          "value": "They speed off.  To destiny!",
+        },
+        Object {
+          "type": "transition",
+          "value": "CUT TO:",
+        },
+        Object {
+          "metadata": Object {
+            "scene_number": undefined,
+          },
+          "type": "slugline",
+          "value": "EXT. PALATIAL MANSION - DAY",
+        },
+        Object {
+          "type": "action",
+          "value": "An EXTREMELY HANDSOME MAN drinks a beer.  Shirtless, unfortunately.",
+        },
+        Object {
+          "type": "action",
+          "value": "His minion approaches offscreen:",
+        },
+        Object {
+          "character": "MINION",
+          "children": Array [
+            Object {
+              "type": "dialogue",
+              "value": "We found Brick and Steel!",
+            },
+          ],
+          "type": "dialogue_block",
+        },
+        Object {
+          "character": "HANDSOME MAN",
+          "children": Array [
+            Object {
+              "type": "dialogue",
+              "value": "I want them dead.  DEAD!",
+            },
+          ],
+          "type": "dialogue_block",
+        },
+        Object {
+          "type": "action",
+          "value": "Beer flies.",
+        },
+        Object {
+          "type": "transition",
+          "value": "BURN TO PINK.",
+        },
+        Object {
+          "type": "centered",
+          "value": " THE END ",
+        },
+      ],
+      "metadata": Object {
+        "characters": Array [
+          "STEEL",
+          "BRICK",
+          "JACK",
+          "DAN",
+          "COGNITO",
+          "MINION",
+          "HANDSOME MAN",
+        ],
+        "sluglines": Array [
+          "EXT. BRICK'S PATIO - DAY",
+          "INT. TRAILER HOME - DAY",
+          "EXT. BRICK'S POOL - DAY",
+          "SNIPER SCOPE POV",
+          "OPENING TITLES",
+          "EXT. WOODEN SHACK - DAY",
+          "INT. GARAGE - DAY",
+          "EXT. PALATIAL MANSION - DAY",
+        ],
+      },
+      "type": "root",
+    },
+    "titlePage": Object {
+      "author": "Stu Maschwitz",
+      "contact": "Next Level Productions
+1588 Mission Dr.
+Solvang, CA 93463",
+      "credit": "Written by",
+      "draft_date": "1/27/2012",
+      "source": "Story by KTM",
+      "title": "_**BRICK & STEEL**_
+_**FULL RETIRED**_",
+    },
+  },
+  "title": "_**BRICK & STEEL**_
+_**FULL RETIRED**_",
+}
+`;
+
+exports[`fountain #parse should match fixture 1`] = `
+Object {
+  "content": Object {
+    "script": "<h3>EXT. BRICK'S PATIO - DAY</h3><p>A gorgeous day.  The sun is shining.  But BRICK BRADDOCK, retired police detective, is sitting quietly, contemplating -- something.</p><p>The SCREEN DOOR slides open and DICK STEEL, his former partner and fellow retiree, emerges with two cold beers.</p><div class=\\"dialogue\\"><h4>STEEL</h4><p>Beer's ready!</p></div> <div class=\\"dialogue\\"><h4>BRICK</h4><p>Are they cold?</p></div> <div class=\\"dialogue\\"><h4>STEEL</h4><p>Does a bear crap in the woods?</p></div> <p>Steel sits.  They laugh at the dumb joke.</p><div class=\\"dialogue\\"><h4>STEEL</h4><p class=\\"parenthetical\\">(beer raised)</p><p>To retirement.</p></div> <div class=\\"dialogue\\"><h4>BRICK</h4><p>To retirement.</p></div> <p>They drink long and well from the beers.</p><p>And then there's a long beat.<br />Longer than is funny.<br />Long enough to be depressing.</p><p>The men look at each other.</p><div class=\\"dual-dialogue\\"><div class=\\"dialogue left\\"><h4>STEEL</h4><p>Screw retirement.</p></div> <div class=\\"dialogue right\\"><h4>BRICK</h4><p>Screw retirement.</p></div> </div> <h2>SMASH CUT TO:</h2><h3>INT. TRAILER HOME - DAY</h3><p>This is the home of THE BOY BAND, AKA DAN and JACK.  They too are drinking beer, and counting the take from their last smash-and-grab.  Money, drugs, and ridiculous props are strewn about the table.</p><div class=\\"dialogue\\"><h4>JACK</h4><p class=\\"parenthetical\\">(in Vietnamese, subtitled)</p><p><span class=\\"italic\\">Did you know Brick and Steel are retired?</span></p></div> <div class=\\"dialogue\\"><h4>DAN</h4><p>Then let's retire them.<br /><span class=\\"underline\\">Permanently</span>.</p></div> <p>Jack begins to argue vociferously in Vietnamese (?), But mercifully we...</p><h2>CUT TO:</h2><h3>EXT. BRICK'S POOL - DAY</h3><p>Steel, in the middle of a heated phone call:</p><div class=\\"dialogue\\"><h4>STEEL</h4><p>They're coming out of the woodwork!<br /></p><p class=\\"parenthetical\\">(pause)</p><p>No, everybody we've put away!<br /></p><p class=\\"parenthetical\\">(pause)</p><p>Point Blank Sniper?</p></div> <h3>SNIPER SCOPE POV</h3><p>From what seems like only INCHES AWAY.  <span class=\\"underline\\">Steel's face FILLS the <span class=\\"italic\\">Leupold Mark 4</span> scope</span>.</p><div class=\\"dialogue\\"><h4>STEEL</h4><p>The man's a myth!</p></div> <p>Steel turns and looks straight into the cross-hairs.</p><div class=\\"dialogue\\"><h4>STEEL</h4><p class=\\"parenthetical\\">(oh crap)</p><p>Hello...</p></div> <h2>CUT TO:</h2><h3>OPENING TITLES</h3><p class=\\"centered\\">BRICK BRADDOCK <br /> & DICK STEEL IN</p><p class=\\"centered\\">BRICK & STEEL <br /> FULL RETIRED</p><h2>SMASH CUT TO:</h2><h3>EXT. WOODEN SHACK - DAY</h3><p>COGNITO, the criminal mastermind, is SLAMMED against the wall.</p><div class=\\"dialogue\\"><h4>COGNITO</h4><p>Woah woah woah, Brick and Steel!</p></div> <p>Sure enough, it's Brick and Steel, roughing up their favorite usual suspect.</p><div class=\\"dialogue\\"><h4>COGNITO</h4><p>What is it you want with me, DICK?</p></div> <p>Steel SMACKS him.</p><div class=\\"dialogue\\"><h4>STEEL</h4><p>Who's coming after us?</p></div> <div class=\\"dialogue\\"><h4>COGNITO</h4><p>Everyone's coming after you mate!  Scorpio, The Boy Band, Sparrow, Point Blank Sniper...</p></div> <p>As he rattles off the long list, Brick and Steel share a look.  This is going to be BAD.</p><h2>CUT TO:</h2><h3>INT. GARAGE - DAY</h3><p>BRICK and STEEL get into Mom's PORSCHE, Steel at the wheel.  They pause for a beat, the gravity of the situation catching up with them.</p><div class=\\"dialogue\\"><h4>BRICK</h4><p>This is everybody we've ever put away.</p></div> <div class=\\"dialogue\\"><h4>STEEL</h4><p class=\\"parenthetical\\">(starting the engine)</p><p>So much for retirement!</p></div> <p>They speed off.  To destiny!</p><h2>CUT TO:</h2><h3>EXT. PALATIAL MANSION - DAY</h3><p>An EXTREMELY HANDSOME MAN drinks a beer.  Shirtless, unfortunately.</p><p>His minion approaches offscreen:</p><div class=\\"dialogue\\"><h4>MINION</h4><p>We found Brick and Steel!</p></div> <div class=\\"dialogue\\"><h4>HANDSOME MAN</h4><p>I want them dead.  DEAD!</p></div> <p>Beer flies.</p><h2>BURN TO PINK.</h2><p class=\\"centered\\">THE END</p>",
+    "title_page": "<h1><span class=\\"bold underline\\">BRICK & STEEL</span><br /><span class=\\"bold underline\\">FULL RETIRED</span></h1><p class=\\"credit\\">Written by</p><p class=\\"authors\\">Stu Maschwitz</p><p class=\\"source\\">Story by KTM</p><p class=\\"draft-date\\">1/27/2012</p><p class=\\"contact\\">Next Level Productions<br />1588 Mission Dr.<br />Solvang, CA 93463</p>",
+  },
+  "title": "BRICK & STEEL FULL RETIRED",
+}
+`;
+
+exports[`fountain #tokenize should match fixture 1`] = `
+Array [
+  Object {
+    "text": " THE END ",
+    "type": "centered",
+  },
+  Object {
+    "text": "BURN TO PINK.",
+    "type": "transition",
+  },
+  Object {
+    "text": "Beer flies.",
+    "type": "action",
+  },
+  Object {
+    "type": "dialogue_end",
+  },
+  Object {
+    "text": "I want them dead.  DEAD!",
+    "type": "dialogue",
+  },
+  Object {
+    "text": "HANDSOME MAN",
+    "type": "character",
+  },
+  Object {
+    "dual": undefined,
+    "type": "dialogue_begin",
+  },
+  Object {
+    "type": "dialogue_end",
+  },
+  Object {
+    "text": "We found Brick and Steel!",
+    "type": "dialogue",
+  },
+  Object {
+    "text": "MINION",
+    "type": "character",
+  },
+  Object {
+    "dual": undefined,
+    "type": "dialogue_begin",
+  },
+  Object {
+    "text": "His minion approaches offscreen:",
+    "type": "action",
+  },
+  Object {
+    "text": "An EXTREMELY HANDSOME MAN drinks a beer.  Shirtless, unfortunately.",
+    "type": "action",
+  },
+  Object {
+    "scene_number": undefined,
+    "text": "EXT. PALATIAL MANSION - DAY",
+    "type": "scene_heading",
+  },
+  Object {
+    "text": "CUT TO:",
+    "type": "transition",
+  },
+  Object {
+    "text": "They speed off.  To destiny!",
+    "type": "action",
+  },
+  Object {
+    "type": "dialogue_end",
+  },
+  Object {
+    "text": "So much for retirement!",
+    "type": "dialogue",
+  },
+  Object {
+    "text": "(starting the engine)",
+    "type": "parenthetical",
+  },
+  Object {
+    "text": "STEEL",
+    "type": "character",
+  },
+  Object {
+    "dual": undefined,
+    "type": "dialogue_begin",
+  },
+  Object {
+    "type": "dialogue_end",
+  },
+  Object {
+    "text": "This is everybody we've ever put away.",
+    "type": "dialogue",
+  },
+  Object {
+    "text": "BRICK",
+    "type": "character",
+  },
+  Object {
+    "dual": undefined,
+    "type": "dialogue_begin",
+  },
+  Object {
+    "text": "BRICK and STEEL get into Mom's PORSCHE, Steel at the wheel.  They pause for a beat, the gravity of the situation catching up with them.",
+    "type": "action",
+  },
+  Object {
+    "scene_number": undefined,
+    "text": "INT. GARAGE - DAY",
+    "type": "scene_heading",
+  },
+  Object {
+    "text": "CUT TO:",
+    "type": "transition",
+  },
+  Object {
+    "text": "As he rattles off the long list, Brick and Steel share a look.  This is going to be BAD.",
+    "type": "action",
+  },
+  Object {
+    "type": "dialogue_end",
+  },
+  Object {
+    "text": "Everyone's coming after you mate!  Scorpio, The Boy Band, Sparrow, Point Blank Sniper...",
+    "type": "dialogue",
+  },
+  Object {
+    "text": "COGNITO",
+    "type": "character",
+  },
+  Object {
+    "dual": undefined,
+    "type": "dialogue_begin",
+  },
+  Object {
+    "type": "dialogue_end",
+  },
+  Object {
+    "text": "Who's coming after us?",
+    "type": "dialogue",
+  },
+  Object {
+    "text": "STEEL",
+    "type": "character",
+  },
+  Object {
+    "dual": undefined,
+    "type": "dialogue_begin",
+  },
+  Object {
+    "text": "Steel SMACKS him.",
+    "type": "action",
+  },
+  Object {
+    "type": "dialogue_end",
+  },
+  Object {
+    "text": "What is it you want with me, DICK?",
+    "type": "dialogue",
+  },
+  Object {
+    "text": "COGNITO",
+    "type": "character",
+  },
+  Object {
+    "dual": undefined,
+    "type": "dialogue_begin",
+  },
+  Object {
+    "text": "Sure enough, it's Brick and Steel, roughing up their favorite usual suspect.",
+    "type": "action",
+  },
+  Object {
+    "type": "dialogue_end",
+  },
+  Object {
+    "text": "Woah woah woah, Brick and Steel!",
+    "type": "dialogue",
+  },
+  Object {
+    "text": "COGNITO",
+    "type": "character",
+  },
+  Object {
+    "dual": undefined,
+    "type": "dialogue_begin",
+  },
+  Object {
+    "text": "COGNITO, the criminal mastermind, is SLAMMED against the wall.",
+    "type": "action",
+  },
+  Object {
+    "scene_number": undefined,
+    "text": "EXT. WOODEN SHACK - DAY",
+    "type": "scene_heading",
+  },
+  Object {
+    "text": "SMASH CUT TO:",
+    "type": "transition",
+  },
+  Object {
+    "text": " BRICK & STEEL 
+ FULL RETIRED ",
+    "type": "centered",
+  },
+  Object {
+    "text": " BRICK BRADDOCK 
+ & DICK STEEL IN ",
+    "type": "centered",
+  },
+  Object {
+    "scene_number": undefined,
+    "text": "OPENING TITLES",
+    "type": "scene_heading",
+  },
+  Object {
+    "text": "CUT TO:",
+    "type": "transition",
+  },
+  Object {
+    "type": "dialogue_end",
+  },
+  Object {
+    "text": "Hello...",
+    "type": "dialogue",
+  },
+  Object {
+    "text": "(oh crap)",
+    "type": "parenthetical",
+  },
+  Object {
+    "text": "STEEL",
+    "type": "character",
+  },
+  Object {
+    "dual": undefined,
+    "type": "dialogue_begin",
+  },
+  Object {
+    "text": "Steel turns and looks straight into the cross-hairs.",
+    "type": "action",
+  },
+  Object {
+    "type": "dialogue_end",
+  },
+  Object {
+    "text": "The man's a myth!",
+    "type": "dialogue",
+  },
+  Object {
+    "text": "STEEL",
+    "type": "character",
+  },
+  Object {
+    "dual": undefined,
+    "type": "dialogue_begin",
+  },
+  Object {
+    "text": "From what seems like only INCHES AWAY.  _Steel's face FILLS the *Leupold Mark 4* scope_.",
+    "type": "action",
+  },
+  Object {
+    "scene_number": undefined,
+    "text": "SNIPER SCOPE POV",
+    "type": "scene_heading",
+  },
+  Object {
+    "type": "dialogue_end",
+  },
+  Object {
+    "text": "Point Blank Sniper?",
+    "type": "dialogue",
+  },
+  Object {
+    "text": "(pause)",
+    "type": "parenthetical",
+  },
+  Object {
+    "text": "No, everybody we've put away!
+",
+    "type": "dialogue",
+  },
+  Object {
+    "text": "(pause)",
+    "type": "parenthetical",
+  },
+  Object {
+    "text": "They're coming out of the woodwork!
+",
+    "type": "dialogue",
+  },
+  Object {
+    "text": "STEEL",
+    "type": "character",
+  },
+  Object {
+    "dual": undefined,
+    "type": "dialogue_begin",
+  },
+  Object {
+    "text": "Steel, in the middle of a heated phone call:",
+    "type": "action",
+  },
+  Object {
+    "scene_number": undefined,
+    "text": "EXT. BRICK'S POOL - DAY",
+    "type": "scene_heading",
+  },
+  Object {
+    "text": "CUT TO:",
+    "type": "transition",
+  },
+  Object {
+    "text": "Jack begins to argue vociferously in Vietnamese (?), But mercifully we...",
+    "type": "action",
+  },
+  Object {
+    "type": "dialogue_end",
+  },
+  Object {
+    "text": "Then let's retire them.
+_Permanently_.",
+    "type": "dialogue",
+  },
+  Object {
+    "text": "DAN",
+    "type": "character",
+  },
+  Object {
+    "dual": undefined,
+    "type": "dialogue_begin",
+  },
+  Object {
+    "type": "dialogue_end",
+  },
+  Object {
+    "text": "*Did you know Brick and Steel are retired?*",
+    "type": "dialogue",
+  },
+  Object {
+    "text": "(in Vietnamese, subtitled)",
+    "type": "parenthetical",
+  },
+  Object {
+    "text": "JACK",
+    "type": "character",
+  },
+  Object {
+    "dual": undefined,
+    "type": "dialogue_begin",
+  },
+  Object {
+    "text": "This is the home of THE BOY BAND, AKA DAN and JACK.  They too are drinking beer, and counting the take from their last smash-and-grab.  Money, drugs, and ridiculous props are strewn about the table.",
+    "type": "action",
+  },
+  Object {
+    "scene_number": undefined,
+    "text": "INT. TRAILER HOME - DAY",
+    "type": "scene_heading",
+  },
+  Object {
+    "text": "SMASH CUT TO:",
+    "type": "transition",
+  },
+  Object {
+    "type": "dual_dialogue_end",
+  },
+  Object {
+    "type": "dialogue_end",
+  },
+  Object {
+    "text": "Screw retirement.",
+    "type": "dialogue",
+  },
+  Object {
+    "text": "BRICK",
+    "type": "character",
+  },
+  Object {
+    "dual": "right",
+    "type": "dialogue_begin",
+  },
+  Object {
+    "type": "dialogue_end",
+  },
+  Object {
+    "text": "Screw retirement.",
+    "type": "dialogue",
+  },
+  Object {
+    "text": "STEEL",
+    "type": "character",
+  },
+  Object {
+    "dual": "left",
+    "type": "dialogue_begin",
+  },
+  Object {
+    "type": "dual_dialogue_begin",
+  },
+  Object {
+    "text": "The men look at each other.",
+    "type": "action",
+  },
+  Object {
+    "text": "And then there's a long beat.
+Longer than is funny.
+Long enough to be depressing.",
+    "type": "action",
+  },
+  Object {
+    "text": "They drink long and well from the beers.",
+    "type": "action",
+  },
+  Object {
+    "type": "dialogue_end",
+  },
+  Object {
+    "text": "To retirement.",
+    "type": "dialogue",
+  },
+  Object {
+    "text": "BRICK",
+    "type": "character",
+  },
+  Object {
+    "dual": undefined,
+    "type": "dialogue_begin",
+  },
+  Object {
+    "type": "dialogue_end",
+  },
+  Object {
+    "text": "To retirement.",
+    "type": "dialogue",
+  },
+  Object {
+    "text": "(beer raised)",
+    "type": "parenthetical",
+  },
+  Object {
+    "text": "STEEL",
+    "type": "character",
+  },
+  Object {
+    "dual": undefined,
+    "type": "dialogue_begin",
+  },
+  Object {
+    "text": "Steel sits.  They laugh at the dumb joke.",
+    "type": "action",
+  },
+  Object {
+    "type": "dialogue_end",
+  },
+  Object {
+    "text": "Does a bear crap in the woods?",
+    "type": "dialogue",
+  },
+  Object {
+    "text": "STEEL",
+    "type": "character",
+  },
+  Object {
+    "dual": undefined,
+    "type": "dialogue_begin",
+  },
+  Object {
+    "type": "dialogue_end",
+  },
+  Object {
+    "text": "Are they cold?",
+    "type": "dialogue",
+  },
+  Object {
+    "text": "BRICK",
+    "type": "character",
+  },
+  Object {
+    "dual": undefined,
+    "type": "dialogue_begin",
+  },
+  Object {
+    "type": "dialogue_end",
+  },
+  Object {
+    "text": "Beer's ready!",
+    "type": "dialogue",
+  },
+  Object {
+    "text": "STEEL",
+    "type": "character",
+  },
+  Object {
+    "dual": undefined,
+    "type": "dialogue_begin",
+  },
+  Object {
+    "text": "The SCREEN DOOR slides open and DICK STEEL, his former partner and fellow retiree, emerges with two cold beers.",
+    "type": "action",
+  },
+  Object {
+    "text": "A gorgeous day.  The sun is shining.  But BRICK BRADDOCK, retired police detective, is sitting quietly, contemplating -- something.",
+    "type": "action",
+  },
+  Object {
+    "scene_number": undefined,
+    "text": "EXT. BRICK'S PATIO - DAY",
+    "type": "scene_heading",
+  },
+  Object {
+    "text": "Next Level Productions
+1588 Mission Dr.
+Solvang, CA 93463",
+    "type": "contact",
+  },
+  Object {
+    "text": "1/27/2012",
+    "type": "draft_date",
+  },
+  Object {
+    "text": "Story by KTM",
+    "type": "source",
+  },
+  Object {
+    "text": "Stu Maschwitz",
+    "type": "author",
+  },
+  Object {
+    "text": "Written by",
+    "type": "credit",
+  },
+  Object {
+    "text": "_**BRICK & STEEL**_
+_**FULL RETIRED**_",
+    "type": "title",
+  },
+]
+`;
