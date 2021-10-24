@@ -5,12 +5,13 @@
 
 ftnbuild is a JS processor for [Fountain](http://fountain.io/). Forked from the lovely [Fountain.js](https://github.com/mattdaly/Fountain.js) implementation by Matt Daly.
 
+ftnbuild extends Fountain.js with new features designed to make it work better with programmatic integrations. The core lexer is currently the same as the original Fountain.js project, but the goal is to improve it along with the parsing engine to support different output formats.
+
 Roadmap:
 
 - [x] JSON output
-- [ ] Inline field JSON output
-- [ ] Update docs
-- [ ] Better test coverage
+- [ ] Inline JSON parsing
+- [ ] Script metadata and analytics
 
 ## Installation
 
