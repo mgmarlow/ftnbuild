@@ -173,6 +173,6 @@ export const html = (tokens) => {
 
   return {
     title,
-    content: { title_page: titlePage.join(''), script: tags.join('') },
+    content: { titlePage: titlePage.join(''), script: tags.join('') },
   }
 }
