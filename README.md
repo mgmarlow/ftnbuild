@@ -7,11 +7,15 @@ ftnbuild is a JS processor for [Fountain](http://fountain.io/). Forked from the 
 
 ftnbuild extends Fountain.js with new features designed to make it work better with programmatic integrations. The core lexer is currently the same as the original Fountain.js project, but the goal is to improve it along with the parsing engine to support different output formats.
 
-Roadmap:
+Roadmap to `v1.0.0`:
 
-- [x] JSON output
-- [ ] Inline JSON parsing
+- [x] JSON output mvp
+- [ ] JSON: inlineLexer
+- [ ] JSON: boneyard/note support (fetch root for every token)
+- [ ] Try out w/ codesandbox + React
+- [ ] Expose proper AST via `parse` API (breaking)
 - [ ] Script metadata and analytics
+- [ ] Contributing guide
 
 ## Installation
 
