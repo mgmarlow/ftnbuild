@@ -1,5 +1,8 @@
 # ftnbuild
 
+[![CI](https://github.com/mgmarlow/ftnbuild/actions/workflows/main.yml/badge.svg)](https://github.com/mgmarlow/ftnbuild/actions/workflows/main.yml)
+[![npm version](https://badge.fury.io/js/ftnbuild.svg)](https://badge.fury.io/js/ftnbuild)
+
 ftnbuild is a JS processor for [Fountain](http://fountain.io/). Forked from the lovely [Fountain.js](https://github.com/mattdaly/Fountain.js) implementation by Matt Daly.
 
 Roadmap:
