@@ -91,6 +91,32 @@ Currently ftnbuild supports a limited range of key-value pairs for title pages:
 
 ## Styling guide
 
-```
-wip
-```
+### Class and element list
+
+Title page:
+
+- `.credit`
+- `.author`
+- `.authors`
+- `.source`
+- `.notes`
+- `.draft-date`
+- `.date`
+- `.contact`
+- `.copyright`
+
+Script:
+
+- Inline formats: `.bold`, `.italic`, `.underline`
+- Transitions: `h2`
+- Sluglines: `h3`
+- Character: `h4`
+- Dual dialogue: `.dual-dialogue`
+- Dialogue block: `.dialogue`
+- Parenthetical: `.parenthetical`
+- Dialogue, action: `p`
+- Section: `p.section`
+- Synopsis: `p.synopsis`
+- Centered: `p.centered`
+- Page break: `hr`
+- Line break: `br`
