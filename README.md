@@ -20,7 +20,25 @@ npm install ftnbuild
 
 ## Usage
 
-Parse as HTML:
+`#parse` arguments:
+
+1. Fountain file as a string
+2. (Optional) options object
+
+```js
+parse(screenplay, {
+  format: 'html', // html (default) or json
+})
+```
+
+Returns an object containing:
+
+- `title`: string
+- `content`: object with `titlePage` and `script`
+
+The shape of `content.titlePage` and `content.script` will change depending on your desired format.
+
+### Parse as HTML
 
 ```js
 import fs from 'fs'
@@ -33,7 +51,9 @@ const output = parse(contents)
 // output.content.script -> '<h2><span class="bold">FADE IN:</span></h2>...'
 ```
 
-Parse as JSON (good for programmatic integrations):
+### Parse as JSON
+
+(good for programmatic integrations)
 
 ```js
 import fs from 'fs'
@@ -64,7 +84,9 @@ const output = parse(contents, { format: 'json' })
 // }
 ```
 
-Get the raw tokens (write your own parser):
+### Get the raw tokens
+
+(write your own parser)
 
 **Note**: The tokens are returned in reverse order. Take a look at `src/formats/` for examples of creating a parser/formatter.
 
