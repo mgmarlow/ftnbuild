@@ -9,14 +9,17 @@
   "scripts": {
     "test": "yarn jest",
     "build": "parcel build",
-    "prepare": "yarn build"
+    "prepare": "yarn build",
+    "re:build": "rescript",
+    "re:start": "rescript build -w"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
     "babel-jest": "^27.3.1",
     "jest": "^27.3.1",
-    "parcel": "^2.0.0"
+    "parcel": "^2.0.0",
+    "rescript": "^9.1.4"
   },
   "dependencies": {
     "lodash": "^4.17.21"
